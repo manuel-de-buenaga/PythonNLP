@@ -1,0 +1,23 @@
+import nltk
+
+print(nltk.__version__)
+
+import numpy as np
+
+a = np.array([1, 12, 14, 9, 5])
+print(a)
+
+print("recuperar version")
+
+'''1importar texto'''
+
+'''tokenizing word by word or sentence by sentence'''
+nltk.word_tokenize(text, language);
+nltk.sent_tokenize(text, language)
+
+
+'''filter stop words'''
+nltk.download("stopwords")
+set(stopwords.words("english"))
+
+'''similitud coseno'''
